@@ -13,13 +13,15 @@ To run the notebooks, you need to provide the following credentials via environm
 2. `LANGFUSE_PUBLIC_KEY`: A Langfuse public key
 3. `LANGFUSE_SECRET_KEY`: A Langfuse secret key
 
-There are three ways to run the notebooks:
+There are two options to run the notebooks:
 
-### 1. HuggingFace spaces
+### 1. GitHub codespace
 
-### 2. GitHub codespace
+Fork a copy of the repository, then the credentials mentioned above as codespace secrets: settings → Secrets and variables → Codespaces → New repository secret. Start a new codespace on main.
 
 ### 3. Local
+
+Clone the repository, create a virtual environment and install requirements.txt via pip. Provide the credentials mentioned above as environment variables.
 
 ## Notebooks
 
