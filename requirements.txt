@@ -1,4 +1,9 @@
+duckduckgo-search
 huggingface_hub
 ipykernel
 ipywidgets
-smolagents
+numpy
+smolagents[telemetry]
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openinference-instrumentation-smolagents
