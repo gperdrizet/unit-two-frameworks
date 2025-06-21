@@ -1,7 +1,11 @@
 duckduckgo-search
+google-search-results
+gradio_client
 huggingface_hub
 ipykernel
+langchain-community
 markdownify
+matplotlib
 numpy
 smolagents[telemetry]
 opentelemetry-sdk
