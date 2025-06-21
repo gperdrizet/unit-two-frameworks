@@ -34,6 +34,7 @@ Clone the repository, create a virtual environment and install requirements.txt 
 2. [Tool Calling Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/tool_calling_agents.ipynb)
 3. [Tools](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/tools.ipynb)
 4. [Retrieval Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/retrieval_agents.ipynb)
+5. [Multiagents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/multiagent_notebook.ipynb)
 
 ### 2.2. LLamaIndex
 
