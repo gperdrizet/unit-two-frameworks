@@ -12,7 +12,9 @@ To run the notebooks, you need to provide the following credentials via environm
 1. `HF_TOKEN`: A HuggingFace access token with repository read/write and inference permission
 2. `LANGFUSE_PUBLIC_KEY`: A Langfuse public key
 3. `LANGFUSE_SECRET_KEY`: A Langfuse secret key
-4. `SERPAPI_API_KEY`: A SerpApi private key
+4. `OPENAI_API_KEY`: An OpenAI API key
+
+All of these can be generated using a free-tier account from the respective providers.
 
 There are two options to run the notebooks:
 
