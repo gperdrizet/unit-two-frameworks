@@ -18,13 +18,13 @@ All of these can be generated using a free-tier account from the respective prov
 
 There are two options to run the notebooks:
 
-### 1. GitHub codespace
+### 1. GitHub codespace (recommended)
 
 Fork a copy of the repository, then the credentials mentioned above as codespace secrets: settings → Secrets and variables → Codespaces → New repository secret. Start a new codespace on main.
 
-### 3. Local
+### 2. Local
 
-Clone the repository, create a virtual environment and install requirements.txt via pip. Provide the credentials mentioned above as environment variables.
+Clone the repository, create a virtual environment and install requirements.txt via pip. Provide the credentials mentioned above as environment variables. Note: for the vision agent to work, you need to have Chromium installed and chromium-webdriver configured properly.
 
 ## Notebooks
 
