@@ -6,10 +6,12 @@ gradio_client
 helium
 huggingface_hub
 ipykernel
+ipywidgets
 kaleido
 langchain-community
 markdownify
 matplotlib
+nbformat
 numpy
 shapely
 smolagents[telemetry]

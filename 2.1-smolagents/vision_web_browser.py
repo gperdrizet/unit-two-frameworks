@@ -3,7 +3,7 @@ from io import BytesIO
 from time import sleep
 
 import helium
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -110,8 +110,6 @@ def initialize_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--ignore-ssl-errors=yes")
     chrome_options.add_argument("--ignore-certificate-errors")
-    chrome_options.add_argument("--remote-debugging-pipe")
-    chrome_options.add_argument("--remote-debugging-port=9223")
     return helium.start_chrome(headless=True, options=chrome_options)
 
 
@@ -185,7 +183,7 @@ When you have modals or cookie banners on screen, you should get rid of them bef
 
 def main():
     # Load environment variables
-    load_dotenv()
+    #load_dotenv()
 
     # Parse command line arguments
     args = parse_arguments()
@@ -193,13 +191,17 @@ def main():
     # Initialize the model based on the provided arguments
     model = load_model(args.model_type, args.model_id)
 
-    global driver
-    driver = initialize_driver()
-    agent = initialize_agent(model)
+    try: 
+        global driver
+        driver = initialize_driver()
+        agent = initialize_agent(model)
 
-    # Run the agent with the provided prompt
-    agent.python_executor("from helium import *")
-    agent.run(args.prompt + helium_instructions)
+        # Run the agent with the provided prompt
+        agent.python_executor("from helium import *")
+        agent.run(args.prompt + helium_instructions)
+
+    finally:
+        driver.close()
 
 
 if __name__ == "__main__":

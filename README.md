@@ -7,7 +7,7 @@ HuggingFace Agents Course - Unit 2: Introduction to Agentic Frameworks demonstra
 
 ## Running
 
-To run the notebooks, you need to provide the following credentials via environment variables. The method to do so will depend on the enviromnet in which you are running (see below).
+To run the notebooks, you need to provide the following credentials via environment variables. The method to do so will depend on the environment in which you are running (see below).
 
 1. `HF_TOKEN`: A HuggingFace access token with repository read/write and inference permission
 2. `LANGFUSE_PUBLIC_KEY`: A Langfuse public key
@@ -18,13 +18,13 @@ All of these can be generated using a free-tier account from the respective prov
 
 There are two options to run the notebooks:
 
-### 1. GitHub codespace
+### 1. GitHub codespace (recommended)
 
 Fork a copy of the repository, then the credentials mentioned above as codespace secrets: settings → Secrets and variables → Codespaces → New repository secret. Start a new codespace on main.
 
-### 3. Local
+### 2. Local
 
-Clone the repository, create a virtual environment and install requirements.txt via pip. Provide the credentials mentioned above as environment variables.
+Clone the repository, create a virtual environment and install requirements.txt via pip. Provide the credentials mentioned above as environment variables. Note: for the vision agent to work, you need to have Chromium installed and chromium-webdriver configured properly.
 
 ## Notebooks
 
@@ -35,6 +35,7 @@ Clone the repository, create a virtual environment and install requirements.txt 
 3. [Tools](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/tools.ipynb)
 4. [Retrieval Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/retrieval_agents.ipynb)
 5. [Multiagents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/multiagent_notebook.ipynb)
+6. [Vision Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/vision_agents.ipynb)
 
 ### 2.2. LLamaIndex
 
