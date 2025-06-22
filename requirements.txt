@@ -6,6 +6,7 @@ gradio_client
 helium
 huggingface_hub
 ipykernel
+ipywidgets
 kaleido
 langchain-community
 markdownify
