@@ -19,3 +19,4 @@ opentelemetry-exporter-otlp
 openinference-instrumentation-smolagents
 plotly
 rank_bm25
+webdriver-manager
