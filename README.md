@@ -7,7 +7,7 @@ HuggingFace Agents Course - Unit 2: Introduction to Agentic Frameworks demonstra
 
 ## Running
 
-To run the notebooks, you need to provide the following credentials via environment variables. The method to do so will depend on the enviromnet in which you are running (see below).
+To run the notebooks, you need to provide the following credentials via environment variables. The method to do so will depend on the environment in which you are running (see below).
 
 1. `HF_TOKEN`: A HuggingFace access token with repository read/write and inference permission
 2. `LANGFUSE_PUBLIC_KEY`: A Langfuse public key
@@ -35,6 +35,7 @@ Clone the repository, create a virtual environment and install requirements.txt 
 3. [Tools](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/tools.ipynb)
 4. [Retrieval Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/retrieval_agents.ipynb)
 5. [Multiagents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/multiagent_notebook.ipynb)
+6. [Vision Agents](https://github.com/gperdrizet/unit-two-frameworks/blob/main/2.1-smolagents/vision_agents.ipynb)
 
 ### 2.2. LLamaIndex
 
