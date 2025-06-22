@@ -3,7 +3,7 @@
 {
 	"name": "Agentic Frameworks notebooks",
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
-	"onCreateCommand": "apt update && apt upgrade -y && pip3 install --upgrade pip && pip3 install --user -r requirements.txt",
+	"onCreateCommand": "sudo apt update && sudo apt upgrade -y && sudo apt install -y chromium-chromedriver && pip3 install --upgrade pip && pip3 install --user -r requirements.txt",
 	"customizations": {
 	  "vscode": {
 		"settings": {"jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3"]},
