@@ -8,11 +8,13 @@ from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from webdriver_manager.chrome import ChromeDriverManager
 
 from smolagents import CodeAgent, DuckDuckGoSearchTool, tool
 from smolagents.agents import ActionStep
 from smolagents.cli import load_model
 
+ChromeDriverManager().install()
 
 alfred_guest_list_request = """
 I am Alfred, the butler of Wayne Manor, responsible for verifying the identity of guests at party. A superhero has arrived at the entrance claiming to be Wonder Woman, but I need to confirm if she is who she says she is.
@@ -104,7 +106,13 @@ def initialize_driver():
     chrome_options.add_argument("--window-size=1000,1350")
     chrome_options.add_argument("--disable-pdf-viewer")
     chrome_options.add_argument("--window-position=0,0")
-    return helium.start_chrome(headless=False, options=chrome_options)
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--ignore-ssl-errors=yes")
+    chrome_options.add_argument("--ignore-certificate-errors")
+    chrome_options.add_argument("--remote-debugging-pipe")
+    chrome_options.add_argument("--remote-debugging-port=9223")
+    return helium.start_chrome(headless=True, options=chrome_options)
 
 
 def initialize_agent(model):
