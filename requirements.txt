@@ -3,6 +3,7 @@ geopandas
 geopy
 google-search-results
 gradio_client
+helium
 huggingface_hub
 ipykernel
 kaleido
