@@ -20,7 +20,7 @@ There are two options to run the notebooks:
 
 ### 1. GitHub codespace (recommended)
 
-Fork a copy of the repository, then the credentials mentioned above as codespace secrets: settings → Secrets and variables → Codespaces → New repository secret. Start a new codespace on main.
+Fork a copy of the repository, then add the credentials mentioned above as codespace secrets: settings → Secrets and variables → Codespaces → New repository secret. Start a new codespace on main.
 
 ### 2. Local
 
