@@ -1,4 +1,4 @@
-arize-phoenix==11.0.0
+arize-phoenix
 datasets
 duckduckgo-search
 geopandas
