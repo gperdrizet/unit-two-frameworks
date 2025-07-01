@@ -1,4 +1,4 @@
-arize-phoenix
+arize-phoenix==11.0.0
 datasets
 duckduckgo-search
 geopandas
@@ -23,10 +23,11 @@ numpy
 shapely
 smolagents[telemetry]==1.18.0
 smolagents[litellm]==1.18.0
-torch==1.13.1
+torch
 opentelemetry-sdk
 opentelemetry-exporter-otlp
 openinference-instrumentation-smolagents
 plotly
 rank_bm25
+pysqlite3-binary
 webdriver-manager

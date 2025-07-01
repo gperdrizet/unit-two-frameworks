@@ -13,8 +13,9 @@ To run the notebooks, you need to provide the following credentials via environm
 2. `LANGFUSE_PUBLIC_KEY`: A Langfuse public key
 3. `LANGFUSE_SECRET_KEY`: A Langfuse secret key
 4. `OPENAI_API_KEY`: An OpenAI API key
+5. `PHOENIX_API_KEY`: An Arise AI Phoenix API key
 
-All of these can be generated using a free-tier account from the respective providers.
+All of these can be generated using a free-tier account from the respective providers. **Note**: you don't need all keys for every notebook. If you are only interested in a specific notebook or notebooks, take a look at what keys are actually used before you set up every credential listed above.
 
 There are two options to run the notebooks:
 
